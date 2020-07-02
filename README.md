@@ -8,4 +8,4 @@ In the project directory, you can run:
 
 This is stop watch created using react
 
-![Image of stopwatch]('src/assets/stop-watch.JPG')
+![Image of stopwatch](https://raw.githubusercontent.com/pruthvi-k/stopwatch/master/src/assets/stop-watch.JPG)
