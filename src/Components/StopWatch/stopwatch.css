@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+  .stopwatch {
+    width: 100%;
+  }
+  .stopwatch .timer {
+    width: 52%;
+  }
+}
+
+@media only screen and (min-width: 599px) {
+  .stopwatch > div {
+    width: 20% !important;
+    /* font-size: 20px; */
+  }
+}
+.stopwatch {
+  font-size: 1.5em;
+  background-color: rgba(248, 247, 216, 0.7) !important;
+}
+.stopwatch .timer {
+  padding-top: 20%;
+  border: 6px solid rgba(35, 39, 43, 0.9);
+  height: 20%;
+  position: relative;
+  margin-bottom: 10px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.timer-text {
+  position: absolute;
+  top: 42%;
+  width: 100%;
+}
