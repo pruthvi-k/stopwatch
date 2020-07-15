@@ -52,7 +52,12 @@ class StopWatch extends Component {
 
           {this.state.timerOn === false && this.state.time === 0 && (
             <div>
-              <Button onClick={this.startTimer} block className="my-1 btn-dark">
+              <Button
+                onClick={this.startTimer}
+                id="startButton"
+                block
+                className="my-1 btn-dark"
+              >
                 Start
               </Button>
             </div>
